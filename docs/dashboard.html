@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Account | FitZone</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <span>FIT</span>ZONE
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <button id="logoutBtn" class="join-btn">
+            Sign Out
+        </button>
+
+    </header>
+
+
+    <!-- ================= ACCOUNT PAGE ================= -->
+
+    <main class="account-page">
+
+        <div class="account-container">
+
+            <!-- PROFILE HEADER -->
+
+            <section class="profile-header">
+
+                <div class="profile-avatar" id="profileAvatar">
+                    S
+                </div>
+
+                <div class="profile-heading">
+
+                    <span class="account-label">
+                        MY ACCOUNT
+                    </span>
+
+                    <h1>
+                        Welcome back,
+                        <span id="userName">User</span>
+                    </h1>
+
+                    <p>
+                        Manage your FitZone profile and fitness journey.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- DASHBOARD GRID -->
+
+            <section class="dashboard-grid">
+
+
+                <!-- PROFILE CARD -->
+
+                <div class="dashboard-card profile-card">
+
+                    <div class="card-title">
+
+                        <div>
+                            <span class="card-label">
+                                ACCOUNT
+                            </span>
+
+                            <h2>Profile Information</h2>
+                        </div>
+
+                        <div class="card-icon">
+                            👤
+                        </div>
+
+                    </div>
+
+
+                    <div class="profile-details">
+
+                        <div class="detail-item">
+
+                            <span class="detail-label">
+                                FULL NAME
+                            </span>
+
+                            <strong id="profileName">
+                                User
+                            </strong>
+
+                        </div>
+
+
+                        <div class="detail-item">
+
+                            <span class="detail-label">
+                                EMAIL ADDRESS
+                            </span>
+
+                            <strong id="profileEmail">
+                                user@example.com
+                            </strong>
+
+                        </div>
+
+
+                        <div class="detail-item">
+
+                            <span class="detail-label">
+                                ACCOUNT STATUS
+                            </span>
+
+                            <strong class="status">
+                                <span></span>
+                                Active
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- MEMBERSHIP CARD -->
+
+                <div class="dashboard-card membership-card">
+
+                    <div class="card-title">
+
+                        <div>
+                            <span class="card-label">
+                                MEMBERSHIP
+                            </span>
+
+                            <h2>FitZone Member</h2>
+                        </div>
+
+                        <div class="card-icon">
+                            💪
+                        </div>
+
+                    </div>
+
+
+                    <div class="membership-content">
+
+                        <h3>
+                            START YOUR JOURNEY
+                        </h3>
+
+                        <p>
+                            Train harder. Get stronger.
+                            Become your best version.
+                        </p>
+
+                        <a href="services.html" class="dashboard-btn">
+                            Explore Training
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FITNESS STATS -->
+
+                <div class="dashboard-card stats-card">
+
+                    <div class="card-title">
+
+                        <div>
+                            <span class="card-label">
+                                YOUR PROGRESS
+                            </span>
+
+                            <h2>Fitness Journey</h2>
+                        </div>
+
+                        <div class="card-icon">
+                            📈
+                        </div>
+
+                    </div>
+
+
+                    <div class="fitness-stats">
+
+                        <div class="fitness-stat">
+                            <strong>01</strong>
+                            <span>Member</span>
+                        </div>
+
+                        <div class="fitness-stat">
+                            <strong>100%</strong>
+                            <span>Motivation</span>
+                        </div>
+
+                        <div class="fitness-stat">
+                            <strong>∞</strong>
+                            <span>Potential</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- QUICK ACTIONS -->
+
+                <div class="dashboard-card actions-card">
+
+                    <div class="card-title">
+
+                        <div>
+                            <span class="card-label">
+                                QUICK ACCESS
+                            </span>
+
+                            <h2>Quick Actions</h2>
+                        </div>
+
+                        <div class="card-icon">
+                            ⚡
+                        </div>
+
+                    </div>
+
+
+                    <div class="quick-actions">
+
+                        <a href="services.html">
+                            <span>🏋️</span>
+                            <div>
+                                <strong>Training Programs</strong>
+                                <small>Explore our services</small>
+                            </div>
+                            <b>→</b>
+                        </a>
+
+
+                        <a href="contact.html">
+                            <span>📞</span>
+                            <div>
+                                <strong>Contact FitZone</strong>
+                                <small>Get in touch with us</small>
+                            </div>
+                            <b>→</b>
+                        </a>
+
+
+                        <button id="logoutBtn2">
+                            <span>↪</span>
+                            <div>
+                                <strong>Sign Out</strong>
+                                <small>Logout from your account</small>
+                            </div>
+                            <b>→</b>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- BOTTOM MOTIVATION -->
+
+            <section class="motivation-box">
+
+                <div>
+
+                    <span class="account-label">
+                        FITZONE
+                    </span>
+
+                    <h2>
+                        YOUR STRONGEST
+                        <span>SELF IS WAITING.</span>
+                    </h2>
+
+                    <p>
+                        Stay consistent. Stay focused. Keep pushing.
+                    </p>
+
+                </div>
+
+                <a href="contact.html" class="dashboard-btn">
+                    Start Training
+                </a>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-logo">
+            <span>FIT</span>ZONE
+        </div>
+
+        <p>
+            © 2026 FitZone. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="js/dashboard.js"></script>
+
+</body>
+
+</html>
